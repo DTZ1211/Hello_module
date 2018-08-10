@@ -29,8 +29,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="hello_module_entity" />
-    <orderEntry type="module" module-name="hello_module_dao" />
+    <orderEntry type="module" module-name="entity" />
+    <orderEntry type="module" module-name="dao" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>

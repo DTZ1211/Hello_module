@@ -7,8 +7,11 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$MODULE_DIR$/web" relative="/" />
+          <root url="file://$MODULE_DIR$/../hello_module_dao/web" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../hello_module_dao/src" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -19,7 +22,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="hello_module_entity" />
+    <orderEntry type="module" module-name="entity" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
